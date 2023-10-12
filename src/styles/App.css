@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 1rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: 100%;
+  height: 100vh;
+}
+.content .editor-name {
+  display: inline;
+  margin: 1rem 0 0 1rem;
+  justify-content: start;
+  color: #c4c4c4;
+  font-weight: 600;
+}
+
+.content .box {
+  display: flex;
+  flex-direction: column;
+}
+
+#editor,
+#preview {
+  flex: 1;
+  margin: 1rem;
+  padding: 1.2rem;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #353434;
+}
+
+#preview {
+  line-height: 1.86rem;
+  color: #c4c4c4;
+}
+
+#preview h1,
+h2,
+h3,
+h4 {
+  padding-block: 0.45rem;
+  border-bottom: 1px solid #3f434b;
+  color: #c4c4c4;
+}
+
+#preview blockquote {
+  padding-left: 1rem;
+  border-left: 4px solid #30363d;
+  color: #8b949e;
+  margin-top: 1rem;
+  margin: 0;
+}
+
+#preview ul,
+ol {
+  padding-left: 1rem;
+}
+
+#preview a {
+  text-decoration: none;
+  color: #58a6ff;
+}
+
+#preview img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+#preview table,
+tr,
+td,
+th {
+  border: 1px solid wheat;
+  border-collapse: collapse;
+  padding: 0.85rem;
+}
+
+#preview pre {
+  background-color: #30363d;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 1rem;
+}
+
+#preview code {
+  background-color: #30363d;
+  padding: 0.15rem;
+}
+
+@media (max-width: 480px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+  }
+
+  #editor {
+    max-width: 480px;
+    margin-left: 0;
+    min-height: 370px;
+  }
+  #preview {
+    max-width: 480px;
+    margin-left: 0;
+    text-align: justify;
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+  }
+
+  #editor {
+    max-width: 767px;
+    margin-left: 0;
+    min-height: 370px;
+  }
+  #preview {
+    max-width: 767px;
+    margin-left: 0;
+    text-align: justify;
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+  }
+
+  #editor {
+    max-width: 991px;
+    margin-left: 0;
+    min-height: 370px;
+  }
+  #preview {
+    max-width: 991px;
+    margin-left: 0;
+    text-align: justify;
+    font-size: 1rem;
+  }
+}
