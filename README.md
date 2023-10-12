@@ -1,6 +1,6 @@
 # Markdown-previewer
 
-> O **Markdown Previewer** é uma aplicação que permite a você visualizar a renderização do seu texto em Markdown em tempo real. Ele é útil para pré-visualizar como seu Markdown será exibido como HTML antes de publicá-lo em um site ou documento.
+> O **Markdown Previewer** é uma aplicação que permite a você visualizar a renderização do seu texto em Markdown em tempo real. Ele é útil para pré-visualizar como seu Markdown será exibido como HTML antes de publicá-lo no seu github ou documento.
 
 ## Languages and Tools
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
