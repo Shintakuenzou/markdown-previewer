@@ -14,7 +14,7 @@
 ## Ajustes e melhorias
 - [x] Responsividade
 - [x] Digitar no textarea e renderizar o preview do markdow em tempo real.
-- [ ] - [ ] Futuramente: Adicionar a funcionalidade de preencher um formulário e gerar um Markdown mais personalizado.
+- [ ] Futuramente: Adicionar a funcionalidade de preencher um formulário e gerar um Markdown mais personalizado.
 
 ## Instalando Markdown-previewer
 Para instalar o markdown-previewer, siga estas etapas:
